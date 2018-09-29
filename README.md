@@ -5,9 +5,10 @@ We will be using the Neural Information Processing Systems (NIPS) 2015 conferenc
 ## Programming Language
 All work should be completed in Python. **Please use Python 3.6+!!**
 
-## Tasks
+## Basic Info
 Although we are only going to be working with the NIPS dataset, consider that this might be used later on to process a dataset much larger (eg an entire subreddit or all the articles from a news publication). Your ideas should be reusable and scaleable. Final work should be in commandline executable form and should allow the user to start with the files mentioned above and do all the following tasks.
 
+## Tasks
 ### Generate FastText word embeddings
 One of the standard building blocks in NLP is the word embedding. The gold standard used to be word2vec embeddings, however we will be creating FastText embeddings instead due to their ability to deal with out-of-vocabulary words. Ensure that you can support a user-defined number of dimensions and have the ability to turn on/off at least one text-preprocessing step.
 
